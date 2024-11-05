@@ -1,0 +1,45 @@
+
+
+.first{
+    background-color: #FF671F;
+    height: 250px;
+    width: 900px;
+    border: 5px solid black;
+    }
+.first>div{
+    background-color: white;
+    height: 250px;
+    width: 900px;
+    position: absolute;
+    top: 250px;
+    left: 8px;
+    border: 5px solid black;
+}
+.first>div>div{
+    background-color:navy;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 345px;
+}
+.first>div>div>div{
+    background-color:  #046A38;
+    height: 250px;
+    width: 900px;
+    position:absolute;
+    top: 250px;
+    left: -350px;
+    border: 5px solid black;
+}
+
+p{
+    text-align: center;
+    font-size: 5rem;
+    margin: 0px;
+    padding: 60px;
+     font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style:italic;
+}
